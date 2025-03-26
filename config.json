@@ -1,0 +1,32 @@
+{
+    "target_path_folder0": "c:/sources/fs-dad",
+    "target_path_folder": "c:/sources/FlexCore-Workspace",
+    "output_path_file": "{target}.xml",
+    "split_content": false,
+    "include_folders": [
+        "*"
+    ],
+    "include_folders1": [
+        "FlexCore.Core.*",
+        "FlexCore.Logging.*"        
+    ],
+    "exclude_folders": [
+        "bin",
+        "obj",
+        "debug",
+        "release",
+        "_backup",
+        "__pycache__",
+        ".vscode",
+        ".vs",
+        "*.git*",
+        "_artifacts"
+    ],
+    "exclude_files": [
+        ".gitignore",
+        ".gitattributes",
+        "*.tmp",
+        "*.log",
+        "*.xml"
+    ]
+}

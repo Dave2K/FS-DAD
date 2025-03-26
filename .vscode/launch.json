@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Esegui fs_dad.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/fs_dad.py", 
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Esegui xml_compressor",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/xml_compressor.py",
+            "args": ["projects.xml", "--compression", "gzip"]
+        },
+        {
+            "name": "Esegui xml_decompressor",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/xml_decompressor.py",
+            "args": ["projects_gzip.xml"]
+        }
+    ]
+}
